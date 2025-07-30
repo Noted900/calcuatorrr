@@ -1,1 +1,31 @@
-# calcuatorrr
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Simple Calculator</h1>
+
+  <input type="number" id="num1" placeholder="First number">
+
+  <select id="operator">
+    <option value="+">+</option>
+    <option value="-">−</option>
+    <option value="*">×</option>
+    <option value="/">÷</option>
+    <option value="%">%</option>
+  </select>
+
+  <input type="number" id="num2" placeholder="Second number">
+  <input type="number" id="num3" placeholder="Third number">
+
+  <button onclick="calculate()">Calculate</button>
+
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
